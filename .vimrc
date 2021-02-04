@@ -6,10 +6,13 @@ filetype plugin indent on
 set expandtab            " tab key produces spaces
 set shiftwidth=2         " 2 spaces are used to indent
 set softtabstop=2        " editing operations treat a tab as 2 spaces
+set backspace=start      " Allow backspacing past where I entered insert mode
 
 set title                " informative window title
 
 set belloff=all          " no audio error bells 
+
+set path+=**              " find, gf etc use the recursive subdirs of current directory as the path
 
 " visual settings
 
@@ -30,8 +33,8 @@ command! Typora execute '! open -a Typora ' . shellescape(expand("%")) | " Open 
 :nmap <silent> <C-l> :wincmd l<CR>
 
 " vimwiki config
-let g:vimwiki_list = [{'path': '~/Documents/notes/', 'path_html': '~/code/vimwiki_html/', 
-                      \ 'syntax': 'markdown', 'ext': '.md'}] " Set vimwiki path and use markdown
+"let g:vimwiki_list = [{'path': '~/Documents/notes/', 'path_html': '~/code/vimwiki_html/', 
+                      "\ 'syntax': 'markdown', 'ext': '.md'}] " Set vimwiki path and use markdown
 
 
 " Ale 
