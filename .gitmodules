@@ -1,0 +1,9 @@
+[submodule "pack/plugins/start/vim-haskell-indent"]
+	path = pack/plugins/start/vim-haskell-indent
+	url = https://github.com/itchyny/vim-haskell-indent
+[submodule "pack/plugins/start/ale"]
+	path = pack/plugins/start/ale
+	url = https://github.com/dense-analysis/ale
+[submodule "pack/colors/start/sixteen"]
+	path = pack/colors/start/sixteen
+	url = https://github.com/brendantang/sixteen-vim.git
