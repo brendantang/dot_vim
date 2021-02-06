@@ -7,3 +7,6 @@
 [submodule "pack/colors/start/sixteen"]
 	path = pack/colors/start/sixteen
 	url = https://github.com/brendantang/sixteen-vim.git
+[submodule "pack/plugins/start/vim-rails"]
+	path = pack/plugins/start/vim-rails
+	url = git@github.com:tpope/vim-rails.git

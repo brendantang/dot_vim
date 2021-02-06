@@ -13,6 +13,7 @@ set title                " informative window title
 set belloff=all          " no audio error bells 
 
 set path+=**              " find, gf etc use the recursive subdirs of current directory as the path
+set wildignore=*.o,*~,*.pyc,*.hi,**/node_modules/**
 
 " visual settings
 
@@ -42,7 +43,7 @@ let g:ale_list_window_size = 6
 let g:ale_open_list = 0
 let g:ale_completion_enabled = 1
 let g:ale_fix_on_save = 1
-let g:ale_sign_column_always = 1
+"let g:ale_sign_column_always = 1
 let g:ale_sign_error = '🥵'
 let g:ale_sign_warning = '⚠️'
 let g:ale_hover_cursor = 1
@@ -50,7 +51,7 @@ let g:ale_hover_to_preview = 1
 let g:ale_set_balloons = 1
 highlight clear ALEErrorSign
 highlight clear ALEWarningSign
+set signcolumn=number
 
 set ttymouse=xterm2
 set mouse=a
-
