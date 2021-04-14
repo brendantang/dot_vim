@@ -10,3 +10,6 @@
 [submodule "pack/plugins/start/vim-rails"]
 	path = pack/plugins/start/vim-rails
 	url = git@github.com:tpope/vim-rails.git
+[submodule "pack/plugins/start/vimwiki"]
+	path = pack/plugins/start/vimwiki
+	url = https://github.com/vimwiki/vimwiki.git
