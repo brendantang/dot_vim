@@ -1,5 +1,5 @@
 I use this repo to manage my whole .vim directory—mainly it keeps track of my plugins.
-My .vimrc is handled by `rcm` in my dotfiles repo: https://git.sr.ht/~brendan/dotfiles
+My .vimrc is handled by `rcm` in my dotfiles repo: https://github.com/brendantang/dotfiles
 
 Since you can install plugins as vim packages by placing them in `.vim/pack/*/start/`,
 I install plugins by adding them as git submodules rather than just cloning them
@@ -11,7 +11,7 @@ That way I can use `git submodule update` to keep them up to date.
 
 ```
 # Checkout my whole ~/.vim directory
-git checkout git.sr.ht/brendantang/dot_vim $HOME/.vim
+git checkout github.com/brendantang/dot_vim $HOME/.vim
 
 # Checkout the plugins
 
