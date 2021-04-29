@@ -13,3 +13,6 @@
 [submodule "pack/plugins/start/vimwiki"]
 	path = pack/plugins/start/vimwiki
 	url = https://github.com/vimwiki/vimwiki.git
+[submodule "pack/plugins/start/nnn.vim"]
+	path = pack/plugins/start/nnn.vim
+	url = git@github.com:mcchrish/nnn.vim.git
