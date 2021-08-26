@@ -16,3 +16,6 @@
 [submodule "pack/plugins/start/nnn.vim"]
 	path = pack/plugins/start/nnn.vim
 	url = git@github.com:mcchrish/nnn.vim.git
+[submodule "pack/plugins/start/markdown-preview.nvim"]
+	path = pack/plugins/start/markdown-preview.nvim
+	url = https://github.com/iamcco/markdown-preview.nvim.git
