@@ -14,6 +14,7 @@ That way I can use `git submodule update` to keep them up to date.
 git clone github.com/brendantang/dot_vim $HOME/.vim
 
 # Checkout the plugins
+git submodule init && git submodule update
 
 ```
 
