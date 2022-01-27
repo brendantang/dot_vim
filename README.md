@@ -11,7 +11,7 @@ That way I can use `git submodule update` to keep them up to date.
 
 ```
 # Checkout my whole ~/.vim directory
-git clone github.com/brendantang/dot_vim $HOME/.vim
+git clone git@github.com:brendantang/dot_vim.git $HOME/.vim
 
 # Checkout the plugins
 
