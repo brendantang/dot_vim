@@ -5,4 +5,5 @@ let b:ale_linters = {'haskell': [ 'cabal_ghc', 'hdevtools', 'hie', 'hlint', 'hls
 "'stack_build',
 "'stack_ghc'
 
-let b:ale_fixers = {'haskell': ['hindent', 'stylish-haskell']}
+let b:ale_fixers = {'haskell': ['ormolu']}
+let g:ale_haskell_ormolu_options = '--no-cabal'
